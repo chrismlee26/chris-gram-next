@@ -25,6 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to view ap
 - [ ] Create 1x Post component
 - [ ] Create Posts component (Map Post)
 - [ ] Create Feed (main) component
+- [ ] Enable infinite scroll
 - [ ] Create and connect to Supabase DB
 - [ ] Auth (Supabase)
   - [ ] Login

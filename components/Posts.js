@@ -39,9 +39,7 @@ const posts = [
     img: '/../public/images/IMG_1144.jpg',
     caption: 'post 7 test caption',
   },
-
 ]
-
 
 function Posts() {
   return (
