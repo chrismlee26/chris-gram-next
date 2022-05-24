@@ -7,8 +7,20 @@ const posts = [
   {
     id: 123,
     img: '/../public/images/IMG_1144.jpg',
-    caption: 'test caption',
-  }
+    caption: 'post 1 test caption',
+  },
+  {
+    id: 234,
+    img: '/../public/images/IMG_1144.jpg',
+    caption: 'post 2 test caption',
+  },
+  {
+    id: 345,
+    img: '/../public/images/IMG_1144.jpg',
+    caption: 'post 3 test caption',
+  },
+
+
 ]
 
 
