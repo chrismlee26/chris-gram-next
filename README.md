@@ -1,23 +1,30 @@
-# Next.js + Tailwind CSS Example
+# chrisgram v2
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+- Chrisgram v2 is a image sharing guestbook application for [chrislee.wtf](https://chrislee.wtf) v0.9.0
+- Front-End: Next.js + TypeScript
+- UI: TailwindCSS
+- Backend: Supabase
 
-## Deploy your own
+#### To install dependencies:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+```zsh
+npm i
+```
+#### To run the development server (dev):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
+```zsh
+npm run dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Open [http://localhost:3000](http://localhost:3000) with your browser to view application.
+
+## Todo List for v2
+- [ ] Create 1x Post component
+- [ ] Create Posts component (Map Post)
+- [ ] Create feed (main) component
+- [ ] Create and connect to Supabase DB
+- [ ] 'Funny' Auth
+  - [ ] Login
+  - [ ] Likes
+  - [ ] Upload
+- [ ] Integrate into chrislee.wtf as guestbook
