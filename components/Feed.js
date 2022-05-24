@@ -2,7 +2,7 @@ import Posts from './Posts'
 
 function Feed() {
   return (
-    <div>
+    <div className="flex mx-auto my-auto items-center">
       {/* Login */}
       <Posts />
       {/* Upload Component*/}

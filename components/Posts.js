@@ -19,14 +19,33 @@ const posts = [
     img: '/../public/images/IMG_1144.jpg',
     caption: 'post 3 test caption',
   },
-
+  {
+    id: 456,
+    img: '/../public/images/IMG_1144.jpg',
+    caption: 'post 4 test caption',
+  },
+  {
+    id: 567,
+    img: '/../public/images/IMG_1144.jpg',
+    caption: 'post 5 test caption',
+  },
+  {
+    id: 678,
+    img: '/../public/images/IMG_1144.jpg',
+    caption: 'post 6 test caption',
+  },
+  {
+    id: 789,
+    img: '/../public/images/IMG_1144.jpg',
+    caption: 'post 7 test caption',
+  },
 
 ]
 
 
 function Posts() {
   return (
-    <div>
+    <div className="grid grid-cols-3 grid-rows-3">
       {posts.map((post) => 
         <Post 
           id={post.id}
