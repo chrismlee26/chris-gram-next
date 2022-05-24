@@ -1,4 +1,5 @@
 import Post from './Post'
+import { useRouter } from 'next/router'
 
 // Connect to db, map post
 
@@ -42,6 +43,9 @@ const posts = [
 ]
 
 function Posts() {
+  const router = useRouter()
+  
+
   return (
     <div className="grid grid-cols-3 grid-rows-3">
       {posts.map((post) => 
