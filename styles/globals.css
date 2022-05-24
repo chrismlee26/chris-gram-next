@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#101010] text-white;
+  }
+}
+
+@layer components {
+  .text-link {
+    @apply py-1 font-main xs:text-xs sm:text-sm grid content-center decoration-4 underline-offset-2 hover:animate-pulse;
+  }
+  .draw-thumbnail {
+    @apply opacity-60 hover:opacity-100 duration-700 ease-in-out flex-shrink-0 cursor-pointer;
+  }
+  .grid-page-item {
+    @apply md:grid md:grid-cols-12 opacity-75 text-white/75 xs:text-xs xl:text-lg hover:opacity-100;
+  }
+  .link-ext {
+    @apply cursor-alias;
+  }
+}
+
+@font-face {
+  font-family: "DINPro";
+  src: local("DIN Pro Condensed Medium"), local("DIN-Pro-Condensed-Medium"),
+    url("../public/fonts/DINPro-CondensedMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto-Regular"), local("Roboto-Regular"), url("../public/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
