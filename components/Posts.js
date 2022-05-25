@@ -42,19 +42,34 @@ const posts = [
   },
 ]
 
+// Add props to push href-prop
+// Decide how to name url's 
+
 function Posts() {
   const router = useRouter()
   
+  const handleClick = (e) => {
+    e.preventDefault()
+    router.push('/')
+    // router.push('/chrisgram/' + {href-prop})
+
+  }
+
 
   return (
     <div className="grid grid-cols-3 grid-rows-3">
+
       {posts.map((post) => 
-        <Post 
-          id={post.id}
-          key={post.id}
-          img={post.img}
-          caption={post.caption}
-          />
+        <div>
+          <a onClick={handleClick}>
+          <Post 
+            id={post.id}
+            key={post.id}
+            img={post.img}
+            caption={post.caption}
+            />
+          </a>
+        </div>
       )}
     </div>
   )
