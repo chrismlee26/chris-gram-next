@@ -3,9 +3,11 @@
 - chrisgram v2 is a image sharing guestbook application for [chrislee.wtf](https://chrislee.wtf)
 - chrisgram v1 (Dockerized + MERN Stack) can be found [here](https://github.com/chrismlee26/chris-gram)
 <br>
-- Front-End: Next.js + TypeScript
+
+- Front-End: Next.js
 - UI: TailwindCSS
-- Backend: Supabase
+- Auth: Supabase
+- DB: Supabase
 
 #### To install dependencies:
 
@@ -22,11 +24,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to view ap
 
 ## Todo List for v2
 - [x] Match styling to chrislee.wtf
-- [ ] Create 1x Post component
-- [ ] Create Posts component (Map Post)
-- [ ] Create Feed (main) component
-- [ ] Enable infinite scroll
-- [ ] Create and connect to Supabase DB
+- [x] Create Feed (main) component
+  - [ ] Create 1x Post component
+  - [ ] Create Posts component (Map Post)
+  - [ ] Create Upload component
+  - [ ] Enable infinite scroll on feed
+- [x] Create and connect to Supabase DB
 - [ ] Auth (Supabase)
   - [ ] Login
   - [ ] Likes
