@@ -42,7 +42,7 @@ const posts = [
   },
 ]
 
-// Add props to push href-prop
+// Add props to push imagetitleprop
 // Decide how to name url's 
 
 function Posts() {
@@ -51,7 +51,7 @@ function Posts() {
   const handleClick = (e) => {
     e.preventDefault()
     router.push('/')
-    // router.push('/chrisgram/' + {href-prop})
+    // router.push('/chrisgram/' + {imagetitleprop})
 
   }
 
