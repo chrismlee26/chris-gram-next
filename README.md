@@ -30,6 +30,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to view ap
   - [ ] Create Upload component
   - [ ] Enable infinite scroll on feed
 - [x] Create and connect to Supabase DB
+- [ ] Decide on types for DB Table & pass to variables
 - [ ] Auth (Supabase)
   - [ ] Login
   - [ ] Likes
