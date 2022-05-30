@@ -36,3 +36,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to view ap
   - [ ] Likes
   - [ ] Upload
 - [ ] Integrate into chrislee.wtf as guestbook
+
+## Todo List for Auth
+- [ ] Create Table & Rules in SQL
+- [ ] Connect Auth
+- [ ] Connect Storage Bucket to Table
+- [ ] Add config
+- [ ] Style CRUD
